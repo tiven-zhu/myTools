@@ -32,6 +32,7 @@
 	<classpathentry kind="src" path="frameworks/base/services/backup/java"/>
 	<classpathentry kind="src" path="frameworks/base/services/devicepolicy/java"/>
 	<classpathentry kind="src" path="frameworks/base/services/appwidget/java"/>
+	<classpathentry kind="src" path="frameworks/base/services/net/java"/>
 	<classpathentry kind="src" path="frameworks/base/telecomm/java"/>
 	<classpathentry kind="src" path="frameworks/base/telephony/java"/>
 	<classpathentry kind="src" path="frameworks/base/wifi/java"/>
@@ -100,9 +101,13 @@
 	<classpathentry kind="src" path="out/target/common/R"/>
 	<classpathentry kind="src" path="out/soong/.intermediates/frameworks/base/framework/android_common/gen/aidl/frameworks/base/core/java"/>
 	<classpathentry kind="src" path="vendor/mediatek/proprietary/frameworks/base/services/core/java"/>
-	<classpathentry kind="src" path="frameworks/base/services/core/java"/>
-	<classpathentry kind="src" path="frameworks/base/services/net/java"/>
 	<classpathentry kind="src" path="out/soong/.intermediates/system/netd/server/netd_aidl_interface-V2-java-source/gen"/>
+	<classpathentry kind="src" path="external/conscrypt/repackaged/platform/src/main/java"/>
+	<classpathentry kind="src" path="external/conscrypt/repackaged/common/src/main/java"/>
+    <classpathentry kind="src" path="out/soong/.intermediates/frameworks/base/framework-statslog-gen/gen"/>
+    <classpathentry kind="src" path="packages/apps/Bluetooth/src"/>
+    <classpathentry kind="src" path="out/soong/.intermediates/frameworks/base/framework/android_common/gen/aidl/system/bt/binder"/>
+    <classpathentry kind="src" path="out/soong/.intermediates/frameworks/base/core/res/framework-res/android_common/gen/aapt2/R"/>
 
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/bouncycastle_intermediates/classes-jarjar.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/conscrypt_intermediates/classes-jarjar.jar"/>
