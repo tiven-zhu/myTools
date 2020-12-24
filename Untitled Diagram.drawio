@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T02:11:13.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="zuI0AyAVdps2ZqWbUfWy" version="14.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-12-24T02:42:38.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="aAPKJKDS-maGO9Aa1CjJ" version="14.1.1" type="github" pages="3">
   <diagram id="rkRg91yvawpchocIyfSg" name="Page-1">
     <mxGraphModel dx="1216" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -608,6 +608,56 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1059.2" y="749.75" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yOoMUEQCQW41BE8voNrA" name="Page-3">
+    <mxGraphModel dx="1216" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="wfGIUde5o3C_u1g_AE0F-0" />
+        <mxCell id="wfGIUde5o3C_u1g_AE0F-1" parent="wfGIUde5o3C_u1g_AE0F-0" />
+        <mxCell id="wfGIUde5o3C_u1g_AE0F-2" value="MediaPlayer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="wfGIUde5o3C_u1g_AE0F-1">
+          <mxGeometry x="200" y="240" width="100" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="wfGIUde5o3C_u1g_AE0F-9" value="setDataSource" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="wfGIUde5o3C_u1g_AE0F-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="90" as="sourcePoint" />
+            <mxPoint x="130" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfGIUde5o3C_u1g_AE0F-10" value="prepare" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="wfGIUde5o3C_u1g_AE0F-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="210" as="sourcePoint" />
+            <mxPoint x="130" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfGIUde5o3C_u1g_AE0F-11" value="start" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="wfGIUde5o3C_u1g_AE0F-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="270" as="sourcePoint" />
+            <mxPoint x="130" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfGIUde5o3C_u1g_AE0F-12" value="setParameter" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="wfGIUde5o3C_u1g_AE0F-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="150" as="sourcePoint" />
+            <mxPoint x="130" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wfGIUde5o3C_u1g_AE0F-3" value="Object" style="html=1;" vertex="1" parent="wfGIUde5o3C_u1g_AE0F-1">
+          <mxGeometry x="195" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wfGIUde5o3C_u1g_AE0F-4" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="wfGIUde5o3C_u1g_AE0F-1">
+          <mxGeometry x="360" y="240" width="100" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="wfGIUde5o3C_u1g_AE0F-5" value="Object" style="html=1;" vertex="1" parent="wfGIUde5o3C_u1g_AE0F-1">
+          <mxGeometry x="355" y="150" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wfGIUde5o3C_u1g_AE0F-6" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="wfGIUde5o3C_u1g_AE0F-1">
+          <mxGeometry x="540" y="240" width="100" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="wfGIUde5o3C_u1g_AE0F-7" value="Object" style="html=1;" vertex="1" parent="wfGIUde5o3C_u1g_AE0F-1">
+          <mxGeometry x="535" y="150" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
