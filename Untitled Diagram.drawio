@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-30T07:29:04.478Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="XtjJDizBDDBpUeiFhl8I" version="14.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-12-30T07:37:45.520Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="4CcxpqIiNdH2nxmYjv3y" version="14.1.3" type="github" pages="3">
   <diagram id="rkRg91yvawpchocIyfSg" name="Page-1">
     <mxGraphModel dx="2440" dy="1470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -641,7 +641,7 @@
           <mxGeometry x="465" y="530" width="110" height="1750" as="geometry" />
         </mxCell>
         <mxCell id="41RDGkD5D51GR3evJAEX-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="wfGIUde5o3C_u1g_AE0F-4" vertex="1">
-          <mxGeometry x="50" y="70" width="10" height="740" as="geometry" />
+          <mxGeometry x="50" y="70" width="10" height="790" as="geometry" />
         </mxCell>
         <mxCell id="41RDGkD5D51GR3evJAEX-19" value="getPlayerType" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" parent="wfGIUde5o3C_u1g_AE0F-4" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -668,13 +668,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="eVzVYoJm1wJDUQUiQ8eK-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;shadow=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="wfGIUde5o3C_u1g_AE0F-4" vertex="1">
-          <mxGeometry x="55" y="780" width="10" height="20" as="geometry" />
+          <mxGeometry x="55" y="820" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eVzVYoJm1wJDUQUiQ8eK-66" value="setDataSource_post" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" parent="wfGIUde5o3C_u1g_AE0F-4" target="eVzVYoJm1wJDUQUiQ8eK-65" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="60" y="760" as="sourcePoint" />
+            <mxPoint x="60" y="800" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="85" y="760" />
+              <mxPoint x="85" y="800" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -884,6 +884,12 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="60" y="920" as="sourcePoint" />
             <mxPoint x="140" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UWjKCIaVsmTVN4x0Dv_6-33" value="notifySetDataSourceCompleted" style="html=1;verticalAlign=middle;endArrow=block;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="eVzVYoJm1wJDUQUiQ8eK-0" target="eVzVYoJm1wJDUQUiQ8eK-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="940" as="sourcePoint" />
+            <mxPoint x="140" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eVzVYoJm1wJDUQUiQ8eK-3" value="NuPlayerDriver" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="wfGIUde5o3C_u1g_AE0F-1" vertex="1">
@@ -1520,8 +1526,22 @@
         <mxCell id="UWjKCIaVsmTVN4x0Dv_6-30" value="内部成员赋值：&lt;br&gt;mFd = dup(fd);    mOffset = offset;    mLength = length;" style="whiteSpace=wrap;html=1;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;align=left;" vertex="1" parent="wfGIUde5o3C_u1g_AE0F-1">
           <mxGeometry x="2080" y="1310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UWjKCIaVsmTVN4x0Dv_6-32" value="mSource =" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;" vertex="1" parent="wfGIUde5o3C_u1g_AE0F-1">
-          <mxGeometry x="1690" y="1350" width="70" height="20" as="geometry" />
+        <mxCell id="UWjKCIaVsmTVN4x0Dv_6-32" value="mSource = new genericsource()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;" vertex="1" parent="wfGIUde5o3C_u1g_AE0F-1">
+          <mxGeometry x="1690" y="1350" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UWjKCIaVsmTVN4x0Dv_6-36" value="线程等待mCondition.wait" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;" vertex="1" parent="wfGIUde5o3C_u1g_AE0F-1">
+          <mxGeometry x="525" y="1290" width="150" height="20" as="geometry" />
+        </mxCell>
+        <UserObject label="mCondition.broadcast" link="mCondition.wait" id="UWjKCIaVsmTVN4x0Dv_6-37">
+          <mxCell style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;entryX=1.044;entryY=0.747;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="wfGIUde5o3C_u1g_AE0F-1" target="UWjKCIaVsmTVN4x0Dv_6-36">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="1150" y="1380" as="sourcePoint" />
+              <mxPoint x="1070" y="1380" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="UWjKCIaVsmTVN4x0Dv_6-38" value="内部状态赋值后通知线程:&lt;br&gt;mState =STATE_UNPREPARED" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontColor=#1D3557;" vertex="1" parent="wfGIUde5o3C_u1g_AE0F-1">
+          <mxGeometry x="995" y="1380" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
