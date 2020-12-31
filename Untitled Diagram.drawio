@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T17:32:05.457Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="O2tpyKmY0Tvc7wTZ8PxL" version="14.1.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-31T17:37:43.667Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="KTls5B5b43CHDooTfHWv" version="14.1.4" type="github" pages="4">
   <diagram id="rkRg91yvawpchocIyfSg" name="Page-1">
     <mxGraphModel dx="1373" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1645,9 +1645,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="lWlyy-ReK4AsqeqDy3tJ-15" value="setRenderer" style="verticalAlign=middle;endArrow=block;" edge="1" parent="LmECl0XdG0BYZTnns1ij-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="70" y="300" as="sourcePoint" />
+            <mxPoint x="330" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <UserObject label="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;NuPlayerDecoder.cpp&lt;/span&gt;" link="NuPlayerDecoderBase.cpp" id="LmECl0XdG0BYZTnns1ij-8">
           <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" parent="LmECl0XdG0BYZTnns1ij-1" vertex="1">
-            <mxGeometry x="990" y="230" width="100" height="1030" as="geometry" />
+            <mxGeometry x="990" y="650" width="100" height="1030" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="LmECl0XdG0BYZTnns1ij-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" parent="LmECl0XdG0BYZTnns1ij-8" vertex="1">
@@ -1680,6 +1686,32 @@
         </UserObject>
         <mxCell id="LmECl0XdG0BYZTnns1ij-10" value="AHandler.cpp" style="rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" parent="LmECl0XdG0BYZTnns1ij-1" vertex="1">
           <mxGeometry x="985" y="60" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lWlyy-ReK4AsqeqDy3tJ-14" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="LmECl0XdG0BYZTnns1ij-1" source="LmECl0XdG0BYZTnns1ij-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="620" y="540" as="sourcePoint" />
+            <mxPoint x="1040" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWlyy-ReK4AsqeqDy3tJ-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
+          <mxGeometry x="1035" y="460" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lWlyy-ReK4AsqeqDy3tJ-13" value="kWhatSetRenderer" style="edgeStyle=orthogonalEdgeStyle;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="lWlyy-ReK4AsqeqDy3tJ-12" parent="LmECl0XdG0BYZTnns1ij-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="440" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1065" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWlyy-ReK4AsqeqDy3tJ-16" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="LmECl0XdG0BYZTnns1ij-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1050" y="480" as="sourcePoint" />
+            <mxPoint x="1130" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWlyy-ReK4AsqeqDy3tJ-17" value="成员赋值:&#xa;mRenderer = renderer" style="whiteSpace=wrap;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
+          <mxGeometry x="1130" y="480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
