@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-31T17:13:12.551Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="wUhWjunbAhYs9pr_a3Fo" version="14.1.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-31T17:16:53.523Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="Znh9dzZepNQLiEMyXc25" version="14.1.4" type="github" pages="4">
   <diagram id="rkRg91yvawpchocIyfSg" name="Page-1">
     <mxGraphModel dx="1961" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1576,14 +1576,37 @@
         <mxCell id="LmECl0XdG0BYZTnns1ij-7" value="NuPlayer.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
           <mxGeometry x="850" y="140" width="100" height="300" as="geometry" />
         </mxCell>
-        <UserObject label="NuPlayerDecoderBase.cpp" link="NuPlayerDecoderBase.cpp" id="LmECl0XdG0BYZTnns1ij-8">
+        <UserObject label="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;NuPlayerDecoder.cpp&lt;/span&gt;" link="NuPlayerDecoderBase.cpp" id="LmECl0XdG0BYZTnns1ij-8">
           <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
-            <mxGeometry x="990" y="140" width="100" height="300" as="geometry" />
+            <mxGeometry x="990" y="230" width="100" height="1030" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="NuPlayerDecoder.cpp" link="NuPlayerDecoder.cpp" id="LmECl0XdG0BYZTnns1ij-9">
+        <mxCell id="LmECl0XdG0BYZTnns1ij-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-8">
+          <mxGeometry x="45" y="90" width="10" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="LmECl0XdG0BYZTnns1ij-17" value="new Decoder()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" target="LmECl0XdG0BYZTnns1ij-16" parent="LmECl0XdG0BYZTnns1ij-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="70" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LmECl0XdG0BYZTnns1ij-18" value="init()" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="LmECl0XdG0BYZTnns1ij-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="240" as="sourcePoint" />
+            <mxPoint x="140" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LmECl0XdG0BYZTnns1ij-19" value="Configure()" style="html=1;verticalAlign=bottom;endArrow=block;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" edge="1" parent="LmECl0XdG0BYZTnns1ij-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="390" as="sourcePoint" />
+            <mxPoint x="140" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;NuPlayerDecoderBase.cpp&lt;/span&gt;" link="NuPlayerDecoder.cpp" id="LmECl0XdG0BYZTnns1ij-9">
           <mxCell style="html=1;rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
-            <mxGeometry x="985" y="230" width="110" height="50" as="geometry" />
+            <mxGeometry x="985" y="140" width="110" height="50" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="LmECl0XdG0BYZTnns1ij-10" value="AHandler.cpp" style="rounded=0;sketch=0;strokeColor=#457B9D;fillColor=#A8DADC;fontColor=#1D3557;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
