@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-03T13:50:29.384Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="8kaD1gnFesXFRfzLVByg" version="14.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-03T13:51:42.161Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="txQIORtGH0BfIfpSkT9K" version="14.1.8" type="github" pages="4">
   <diagram id="rkRg91yvawpchocIyfSg" name="Page-1">
     <mxGraphModel dx="1373" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1659,7 +1659,7 @@
         </mxCell>
         <UserObject label="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;NuPlayerDecoder.cpp&lt;/span&gt;" link="NuPlayerDecoderBase.cpp" id="LmECl0XdG0BYZTnns1ij-8">
           <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;sketch=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="LmECl0XdG0BYZTnns1ij-1" vertex="1">
-            <mxGeometry x="990" y="650" width="100" height="1030" as="geometry" />
+            <mxGeometry x="990" y="650" width="100" height="750" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="LmECl0XdG0BYZTnns1ij-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" parent="LmECl0XdG0BYZTnns1ij-8" vertex="1">
@@ -1721,9 +1721,12 @@
         </mxCell>
         <UserObject label="NuPlayerRenderer.cpp" link="NuPlayerRenderer.cpp" id="GCte_t-ZuQnMYbpwRf_p-0">
           <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
-            <mxGeometry x="1260" y="140" width="100" height="300" as="geometry" />
+            <mxGeometry x="1260" y="140" width="100" height="1140" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="GCte_t-ZuQnMYbpwRf_p-1" value="MediaCodec.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
+          <mxGeometry x="1420" y="140" width="100" height="1110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
