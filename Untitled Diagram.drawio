@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-07T02:57:18.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="0eprq3XgW2Ob9qurEzsF" version="14.1.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-07T03:02:40.111Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="q6ZxkjIHq1yxgiXR1usB" version="14.1.3" type="github" pages="4">
   <diagram id="rkRg91yvawpchocIyfSg" name="Page-1">
     <mxGraphModel dx="976" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -749,6 +749,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="SYI3w7sHKsn3W_zBavZY-35" value="GetAttributeValue" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="SYI3w7sHKsn3W_zBavZY-3">
+          <mxGeometry x="1" width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="530" as="sourcePoint" />
+            <mxPoint x="140" y="530" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SYI3w7sHKsn3W_zBavZY-4" value="Syscalls.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="uA68mVX3xmZFTy-TSQ9c-1">
           <mxGeometry x="990" y="1500" width="100" height="500" as="geometry" />
         </mxCell>
@@ -771,6 +778,9 @@
         </mxCell>
         <mxCell id="SYI3w7sHKsn3W_zBavZY-13" value="event_loop.h" style="html=1;" vertex="1" parent="uA68mVX3xmZFTy-TSQ9c-1">
           <mxGeometry x="666" y="1420" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SYI3w7sHKsn3W_zBavZY-36" value="填充message_types_" style="whiteSpace=wrap;html=1;" vertex="1" parent="uA68mVX3xmZFTy-TSQ9c-1">
+          <mxGeometry x="960" y="2030" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
