@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-07T03:09:54.047Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="RpEBAQ1bks20Q4f5Q5wf" version="14.1.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-07T03:12:57.033Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="p1PBmm4PxSxc9pGM7Wo_" version="14.1.3" type="github" pages="4">
   <diagram id="rkRg91yvawpchocIyfSg" name="Page-1">
     <mxGraphModel dx="976" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -651,7 +651,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SYI3w7sHKsn3W_zBavZY-3" value="netlink_manager.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="uA68mVX3xmZFTy-TSQ9c-1">
-          <mxGeometry x="820" y="1500" width="100" height="730" as="geometry" />
+          <mxGeometry x="820" y="1500" width="100" height="850" as="geometry" />
         </mxCell>
         <mxCell id="SYI3w7sHKsn3W_zBavZY-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="SYI3w7sHKsn3W_zBavZY-3">
           <mxGeometry x="45" y="252" width="10" height="68" as="geometry" />
@@ -754,6 +754,17 @@
             <mxPoint x="60" y="530" as="sourcePoint" />
             <mxPoint x="140" y="530" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SYI3w7sHKsn3W_zBavZY-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="SYI3w7sHKsn3W_zBavZY-3">
+          <mxGeometry x="45" y="680" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SYI3w7sHKsn3W_zBavZY-40" value="SubscribeToEvents" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="SYI3w7sHKsn3W_zBavZY-39" parent="SYI3w7sHKsn3W_zBavZY-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="660" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="660" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="SYI3w7sHKsn3W_zBavZY-4" value="Syscalls.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="uA68mVX3xmZFTy-TSQ9c-1">
