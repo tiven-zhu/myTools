@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T16:08:09.121Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="r7DJUUlHddwdLurG-ehw" version="14.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-10T16:12:23.426Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="CX7DSaKH7pqtPOzkliBs" version="14.1.8" type="github" pages="4">
   <diagram id="rkRg91yvawpchocIyfSg" name="Page-1">
     <mxGraphModel dx="1373" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1929,7 +1929,16 @@
           </mxCell>
         </UserObject>
         <mxCell id="GCte_t-ZuQnMYbpwRf_p-1" value="MediaCodec.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="LmECl0XdG0BYZTnns1ij-1" vertex="1">
-          <mxGeometry x="1980" y="140" width="100" height="990" as="geometry" />
+          <mxGeometry x="1980" y="140" width="100" height="1029" as="geometry" />
+        </mxCell>
+        <mxCell id="dsgwFn9eZRIVRbpHKB8v-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;" vertex="1" parent="GCte_t-ZuQnMYbpwRf_p-1">
+          <mxGeometry x="45" y="939" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dsgwFn9eZRIVRbpHKB8v-2" value="findMatchingCodecs" style="verticalAlign=bottom;endArrow=block;" edge="1" parent="GCte_t-ZuQnMYbpwRf_p-1" target="dsgwFn9eZRIVRbpHKB8v-0">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="50" y="950" as="sourcePoint" />
+            <mxPoint x="130" y="950" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Wh_1TDd8wM_P2To2Zqe3-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=left;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="LmECl0XdG0BYZTnns1ij-1" source="Wh_1TDd8wM_P2To2Zqe3-1" target="LmECl0XdG0BYZTnns1ij-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -2014,6 +2023,12 @@
         </mxCell>
         <mxCell id="Qv45yGVS6WI59v365BuC-0" value="DataSource.cpp" style="html=1;rounded=0;sketch=0;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
           <mxGeometry x="1665" y="140" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dsgwFn9eZRIVRbpHKB8v-0" value="MediaCodecList.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;sketch=0;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
+          <mxGeometry x="2130" y="140" width="100" height="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="dsgwFn9eZRIVRbpHKB8v-3" value="IInterface::MediaCodecList&#xa;&#xa;+ findCodecByType&#xa;+ findCodecByName&#xa;+ getCodecInfo&#xa;+ findMatchingCodecs" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;rounded=0;sketch=0;labelBorderColor=#000000;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
+          <mxGeometry x="2280" y="140" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
