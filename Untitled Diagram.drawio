@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T15:27:59.295Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="53qfevcIcyc7gT4nZhN2" version="14.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-10T15:32:02.191Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="XrhhTAUVMkIkTkPJM1Z4" version="14.1.8" type="github" pages="4">
   <diagram id="rkRg91yvawpchocIyfSg" name="Page-1">
     <mxGraphModel dx="1373" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1948,10 +1948,10 @@
             <mxPoint x="130" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Wh_1TDd8wM_P2To2Zqe3-9" value="OggExtractor.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#000000;fillColor=#ffffff;gradientColor=none;" parent="LmECl0XdG0BYZTnns1ij-1" vertex="1">
+        <mxCell id="Wh_1TDd8wM_P2To2Zqe3-9" value="OggExtractor.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="LmECl0XdG0BYZTnns1ij-1" vertex="1">
           <mxGeometry x="1350" y="140" width="100" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="Wh_1TDd8wM_P2To2Zqe3-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#ffffff;gradientColor=none;" parent="Wh_1TDd8wM_P2To2Zqe3-9" vertex="1">
+        <mxCell id="Wh_1TDd8wM_P2To2Zqe3-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="Wh_1TDd8wM_P2To2Zqe3-9" vertex="1">
           <mxGeometry x="46" y="192" width="10" height="58" as="geometry" />
         </mxCell>
         <mxCell id="Wh_1TDd8wM_P2To2Zqe3-13" value="MyOggExtractor::&#xa;readNextPacket" style="edgeStyle=orthogonalEdgeStyle;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="Wh_1TDd8wM_P2To2Zqe3-9" target="Wh_1TDd8wM_P2To2Zqe3-12" edge="1">
@@ -1968,6 +1968,12 @@
             <mxPoint x="209.5" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Qv45yGVS6WI59v365BuC-3" value="readAt()" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="Wh_1TDd8wM_P2To2Zqe3-9" target="3cTDv30i8XGUIamhyH3y-7">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="240" as="sourcePoint" />
+            <mxPoint x="140" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3cTDv30i8XGUIamhyH3y-0" value="MediaBuffer.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
           <mxGeometry x="1500" y="140" width="120" height="300" as="geometry" />
         </mxCell>
@@ -1979,8 +1985,8 @@
         <mxCell id="3cTDv30i8XGUIamhyH3y-1" value="MediaBufferBase.cpp" style="" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
           <mxGeometry x="1505" y="61" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3cTDv30i8XGUIamhyH3y-7" value="DataSource.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
-          <mxGeometry x="1670" y="140" width="100" height="300" as="geometry" />
+        <mxCell id="3cTDv30i8XGUIamhyH3y-7" value="FIleSource.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
+          <mxGeometry x="1670" y="220" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="3cTDv30i8XGUIamhyH3y-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LmECl0XdG0BYZTnns1ij-1" source="3cTDv30i8XGUIamhyH3y-8">
           <mxGeometry relative="1" as="geometry">
@@ -1989,6 +1995,14 @@
         </mxCell>
         <mxCell id="3cTDv30i8XGUIamhyH3y-8" value="DataSourceBase.cpp" style="" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
           <mxGeometry x="1665" y="61" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Qv45yGVS6WI59v365BuC-1" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LmECl0XdG0BYZTnns1ij-1" source="Qv45yGVS6WI59v365BuC-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1720" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qv45yGVS6WI59v365BuC-0" value="DataSource.cpp" style="html=1;rounded=0;sketch=0;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
+          <mxGeometry x="1665" y="140" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
