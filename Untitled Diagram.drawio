@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T15:57:22.459Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="sO3fVuh6FHi51ouSVmAw" version="14.1.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-10T15:58:54.670Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="SdBp0Vl2QDpxjLegU_xI" version="14.1.8" type="github" pages="4">
   <diagram id="rkRg91yvawpchocIyfSg" name="Page-1">
     <mxGraphModel dx="1373" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1858,7 +1858,7 @@
         <mxCell id="LmECl0XdG0BYZTnns1ij-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;" parent="LmECl0XdG0BYZTnns1ij-8" vertex="1">
           <mxGeometry x="45" y="90" width="10" height="510" as="geometry" />
         </mxCell>
-        <mxCell id="LmECl0XdG0BYZTnns1ij-17" value="new Decoder()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="LmECl0XdG0BYZTnns1ij-8" target="LmECl0XdG0BYZTnns1ij-16" edge="1">
+        <mxCell id="LmECl0XdG0BYZTnns1ij-17" value="new NuPlayer::Decoder" style="edgeStyle=orthogonalEdgeStyle;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="LmECl0XdG0BYZTnns1ij-8" target="LmECl0XdG0BYZTnns1ij-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="70" as="sourcePoint" />
             <Array as="points">
