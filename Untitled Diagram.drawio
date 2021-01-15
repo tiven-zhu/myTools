@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T10:56:40.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="KFQy4d59iuA69_blQTDF" version="14.1.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-15T11:03:20.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="JffGnh4IVYRcC9lZjNIu" version="14.1.3" type="github" pages="4">
   <diagram id="rkRg91yvawpchocIyfSg" name="Page-1">
     <mxGraphModel dx="1216" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1747,7 +1747,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yMFzud-_iC9STsmfqfNr" name="Page-4">
-    <mxGraphModel dx="1431" dy="1901" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1737" dy="2058" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="LmECl0XdG0BYZTnns1ij-0" />
         <mxCell id="LmECl0XdG0BYZTnns1ij-1" parent="LmECl0XdG0BYZTnns1ij-0" />
@@ -2202,7 +2202,7 @@
         </mxCell>
         <mxCell id="srhUqp7ex-MfDN9EiNVZ-17" value="omx-&amp;gt;allocateNode" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="_T0qhHb3Jlz-zw-4-VSL-4" target="srhUqp7ex-MfDN9EiNVZ-15">
           <mxGeometry x="-0.2494" width="80" relative="1" as="geometry">
-            <mxPoint x="70" y="450" as="sourcePoint" />
+            <mxPoint x="60" y="450" as="sourcePoint" />
             <mxPoint x="150" y="450" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
@@ -2223,7 +2223,7 @@
           <mxGeometry x="2660" y="850" width="100" height="640" as="geometry" />
         </mxCell>
         <mxCell id="paDkqMer1miMTrw4BiY8-8" value="MediaCodec::CodecCallback" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
-          <mxGeometry x="2290" y="850" width="100" height="620" as="geometry" />
+          <mxGeometry x="2290" y="850" width="100" height="770" as="geometry" />
         </mxCell>
         <mxCell id="4oyl_xvaXAVoTWtq7EXb-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="paDkqMer1miMTrw4BiY8-8">
           <mxGeometry x="50" y="690" width="10" height="40" as="geometry" />
@@ -2295,6 +2295,12 @@
         </mxCell>
         <mxCell id="srhUqp7ex-MfDN9EiNVZ-15" value="WOmx.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
           <mxGeometry x="3130" y="850" width="100" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="srhUqp7ex-MfDN9EiNVZ-18" value="onComponentAllocated" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="LmECl0XdG0BYZTnns1ij-1" target="paDkqMer1miMTrw4BiY8-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2510" y="1330" as="sourcePoint" />
+            <mxPoint x="2430" y="1330" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
