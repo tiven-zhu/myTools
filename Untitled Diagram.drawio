@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T11:03:20.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="JffGnh4IVYRcC9lZjNIu" version="14.1.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-15T11:03:33.973Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="TebH6ca5t-We3ucAyWQy" version="14.1.3" type="github" pages="4">
   <diagram id="rkRg91yvawpchocIyfSg" name="Page-1">
     <mxGraphModel dx="1216" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2223,16 +2223,16 @@
           <mxGeometry x="2660" y="850" width="100" height="640" as="geometry" />
         </mxCell>
         <mxCell id="paDkqMer1miMTrw4BiY8-8" value="MediaCodec::CodecCallback" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
-          <mxGeometry x="2290" y="850" width="100" height="770" as="geometry" />
+          <mxGeometry x="2290" y="850" width="100" height="980" as="geometry" />
         </mxCell>
         <mxCell id="4oyl_xvaXAVoTWtq7EXb-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="paDkqMer1miMTrw4BiY8-8">
-          <mxGeometry x="50" y="690" width="10" height="40" as="geometry" />
+          <mxGeometry x="46" y="690" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4oyl_xvaXAVoTWtq7EXb-10" value="kWhatComponentConfigured" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="4oyl_xvaXAVoTWtq7EXb-9" parent="paDkqMer1miMTrw4BiY8-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="670" as="sourcePoint" />
+            <mxPoint x="51" y="670" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="80" y="670" />
+              <mxPoint x="76" y="670" />
             </Array>
           </mxGeometry>
         </mxCell>
