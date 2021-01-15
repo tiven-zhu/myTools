@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T07:44:57.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="HeOh8kXqcRBiP0HOwk38" version="14.1.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-01-15T08:25:27.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="7m__hKmf3ga9A42VFzf_" version="14.1.3" type="github" pages="4">
   <diagram id="rkRg91yvawpchocIyfSg" name="Page-1">
     <mxGraphModel dx="1216" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1852,7 +1852,7 @@
         </mxCell>
         <UserObject label="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;NuPlayerDecoder.cpp&lt;/span&gt;" link="NuPlayerDecoderBase.cpp" id="LmECl0XdG0BYZTnns1ij-8">
           <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;sketch=0;" parent="LmECl0XdG0BYZTnns1ij-1" vertex="1">
-            <mxGeometry x="990" y="650" width="100" height="750" as="geometry" />
+            <mxGeometry x="990" y="650" width="100" height="1050" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="LmECl0XdG0BYZTnns1ij-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;sketch=0;" parent="LmECl0XdG0BYZTnns1ij-8" vertex="1">
@@ -1887,7 +1887,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_T0qhHb3Jlz-zw-4-VSL-0" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-8">
-          <mxGeometry x="44" y="429" width="10" height="211" as="geometry" />
+          <mxGeometry x="44" y="429" width="10" height="451" as="geometry" />
         </mxCell>
         <mxCell id="_T0qhHb3Jlz-zw-4-VSL-3" value="configure" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="LmECl0XdG0BYZTnns1ij-8">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -1975,13 +1975,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="paDkqMer1miMTrw4BiY8-4" value="mResourceManagerService-&gt;init()" style="verticalAlign=middle;endArrow=block;" edge="1" parent="GCte_t-ZuQnMYbpwRf_p-1">
+        <mxCell id="paDkqMer1miMTrw4BiY8-4" value="mResourceManagerService-&gt;init()" style="verticalAlign=middle;endArrow=block;" edge="1" parent="GCte_t-ZuQnMYbpwRf_p-1" target="_T0qhHb3Jlz-zw-4-VSL-10">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="60" y="300" as="sourcePoint" />
             <mxPoint x="600" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="paDkqMer1miMTrw4BiY8-5" value="mCodec=GetCodecBase()" style="html=1;verticalAlign=middle;endArrow=block;" edge="1" parent="GCte_t-ZuQnMYbpwRf_p-1">
+        <mxCell id="paDkqMer1miMTrw4BiY8-5" value="mCodec=GetCodecBase()" style="html=1;verticalAlign=middle;endArrow=block;" edge="1" parent="GCte_t-ZuQnMYbpwRf_p-1" target="_T0qhHb3Jlz-zw-4-VSL-4">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="60" y="315" as="sourcePoint" />
             <mxPoint x="420" y="315" as="targetPoint" />
@@ -2080,10 +2080,7 @@
             <mxPoint x="130" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dsgwFn9eZRIVRbpHKB8v-3" value="IInterface::MediaCodecList&#xa;&#xa;+ findCodecByType&#xa;+ findCodecByName&#xa;+ getCodecInfo&#xa;+ findMatchingCodecs" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;rounded=0;sketch=0;labelBorderColor=#000000;" parent="LmECl0XdG0BYZTnns1ij-1" vertex="1">
-          <mxGeometry x="2270" y="850" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="Qv45yGVS6WI59v365BuC-6" value="mCodec = CreateByType()" style="verticalAlign=bottom;endArrow=block;exitX=1.218;exitY=0.103;exitDx=0;exitDy=0;exitPerimeter=0;" parent="LmECl0XdG0BYZTnns1ij-1" edge="1" source="_T0qhHb3Jlz-zw-4-VSL-0">
+        <mxCell id="Qv45yGVS6WI59v365BuC-6" value="mCodec = CreateByType()" style="verticalAlign=bottom;endArrow=block;" parent="LmECl0XdG0BYZTnns1ij-1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1050" y="1100" as="sourcePoint" />
             <mxPoint x="2029.4999999999995" y="1099.844" as="targetPoint" />
@@ -2137,11 +2134,22 @@
             <mxPoint x="2519.5" y="1230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_T0qhHb3Jlz-zw-4-VSL-10" value="SimpleFilter.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
+        <mxCell id="_T0qhHb3Jlz-zw-4-VSL-10" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;ResourceManagerService.cpp&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
           <mxGeometry x="2660" y="850" width="100" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="paDkqMer1miMTrw4BiY8-8" value="CodecCallback" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
-          <mxGeometry x="1980" y="1310" width="100" height="300" as="geometry" />
+        <mxCell id="paDkqMer1miMTrw4BiY8-8" value="MediaCodec::CodecCallback" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
+          <mxGeometry x="2290" y="850" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="4oyl_xvaXAVoTWtq7EXb-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="paDkqMer1miMTrw4BiY8-8">
+          <mxGeometry x="50" y="550" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4oyl_xvaXAVoTWtq7EXb-10" value="kWhatComponentConfigured" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="4oyl_xvaXAVoTWtq7EXb-9" parent="paDkqMer1miMTrw4BiY8-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="530" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="530" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="4oyl_xvaXAVoTWtq7EXb-0" value="onComponentConfigured" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="LmECl0XdG0BYZTnns1ij-1" target="paDkqMer1miMTrw4BiY8-8">
           <mxGeometry relative="1" as="geometry">
@@ -2164,6 +2172,20 @@
         </mxCell>
         <mxCell id="4oyl_xvaXAVoTWtq7EXb-2" value="AHandler.cpp" style="html=1;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
           <mxGeometry x="2465" y="680" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4oyl_xvaXAVoTWtq7EXb-11" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="LmECl0XdG0BYZTnns1ij-1" source="paDkqMer1miMTrw4BiY8-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2020" y="1440" as="sourcePoint" />
+            <mxPoint x="1050" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oyl_xvaXAVoTWtq7EXb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="LmECl0XdG0BYZTnns1ij-1" source="4oyl_xvaXAVoTWtq7EXb-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2340" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4oyl_xvaXAVoTWtq7EXb-12" value="CodecBase::CodecCallback" style="html=1;" vertex="1" parent="LmECl0XdG0BYZTnns1ij-1">
+          <mxGeometry x="2285" y="759" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
