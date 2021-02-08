@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-08T08:49:05.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dYeQQhTVSYw8UqbwSxHY" version="14.2.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-02-08T09:08:50.317Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="TanjHIKGBJyCLu01HBso" version="14.2.9" type="github" pages="6">
   <diagram id="rkRg91yvawpchocIyfSg" name="Page-1">
     <mxGraphModel dx="1076" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2499,18 +2499,12 @@
           <mxGeometry x="1370" y="129" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oDD7kpyfkN98rXuSfnQN-6" value="HidlTransportSupport.h" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="oDD7kpyfkN98rXuSfnQN-1">
-          <mxGeometry x="60" y="200" width="100" height="560" as="geometry" />
+          <mxGeometry x="60" y="200" width="100" height="1090" as="geometry" />
         </mxCell>
         <mxCell id="oDD7kpyfkN98rXuSfnQN-9" value="getRawServiceInternal" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="oDD7kpyfkN98rXuSfnQN-6" target="oDD7kpyfkN98rXuSfnQN-7">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="50" y="90" as="sourcePoint" />
             <mxPoint x="130" y="90" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oDD7kpyfkN98rXuSfnQN-13" value="toBinder" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="oDD7kpyfkN98rXuSfnQN-6">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="50" y="360" as="sourcePoint" />
-            <mxPoint x="130" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <UserObject label="ServiceManagement.cpp" link="ServiceManagement.cpp" id="oDD7kpyfkN98rXuSfnQN-7">
@@ -2565,7 +2559,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oDD7kpyfkN98rXuSfnQN-10" value="ProcessState.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="oDD7kpyfkN98rXuSfnQN-1">
-          <mxGeometry x="530" y="200" width="100" height="800" as="geometry" />
+          <mxGeometry x="530" y="200" width="100" height="280" as="geometry" />
         </mxCell>
         <mxCell id="oDD7kpyfkN98rXuSfnQN-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="oDD7kpyfkN98rXuSfnQN-10">
           <mxGeometry x="45" y="150" width="10" height="40" as="geometry" />
@@ -2581,10 +2575,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="oDD7kpyfkN98rXuSfnQN-11" value="HidlBinderSupport.h" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="oDD7kpyfkN98rXuSfnQN-1">
-          <mxGeometry x="400" y="200" width="100" height="800" as="geometry" />
+          <mxGeometry x="400" y="200" width="100" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="oDD7kpyfkN98rXuSfnQN-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="oDD7kpyfkN98rXuSfnQN-11">
           <mxGeometry x="45" y="190" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oDD7kpyfkN98rXuSfnQN-81" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="oDD7kpyfkN98rXuSfnQN-11">
+          <mxGeometry x="45" y="860" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oDD7kpyfkN98rXuSfnQN-83" value="details::getBnConstructorMap().get" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="oDD7kpyfkN98rXuSfnQN-11" target="oDD7kpyfkN98rXuSfnQN-82">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="860" as="sourcePoint" />
+            <mxPoint x="140" y="860" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <UserObject label="HidlTransportUtils.cpp" link="HidlTransportUtils.cpp" id="oDD7kpyfkN98rXuSfnQN-12">
           <mxCell style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="oDD7kpyfkN98rXuSfnQN-1">
@@ -2593,12 +2596,6 @@
         </UserObject>
         <mxCell id="oDD7kpyfkN98rXuSfnQN-74" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="oDD7kpyfkN98rXuSfnQN-12">
           <mxGeometry x="44" y="590" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="oDD7kpyfkN98rXuSfnQN-15" value="castFrom" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.478;exitY=0.735;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="oDD7kpyfkN98rXuSfnQN-1" source="oDD7kpyfkN98rXuSfnQN-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="610" as="sourcePoint" />
-            <mxPoint x="20" y="610" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="oDD7kpyfkN98rXuSfnQN-23" value="pm-&amp;gt;get" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="oDD7kpyfkN98rXuSfnQN-1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -2761,6 +2758,18 @@
         </mxCell>
         <mxCell id="oDD7kpyfkN98rXuSfnQN-80" value="Passthrough" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="oDD7kpyfkN98rXuSfnQN-1">
           <mxGeometry x="230" y="832" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="oDD7kpyfkN98rXuSfnQN-13" value="toBinder" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="oDD7kpyfkN98rXuSfnQN-1" target="oDD7kpyfkN98rXuSfnQN-11">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="110" y="1060" as="sourcePoint" />
+            <mxPoint x="190" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oDD7kpyfkN98rXuSfnQN-82" value="Static.cpp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="oDD7kpyfkN98rXuSfnQN-1">
+          <mxGeometry x="530" y="990" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="oDD7kpyfkN98rXuSfnQN-84" value="返回静态变量BnConstructorMap &amp;amp;map&lt;br&gt;此变量在ServiceManagerAll.cpp构造时被赋值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="oDD7kpyfkN98rXuSfnQN-1">
+          <mxGeometry x="600" y="1055" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
