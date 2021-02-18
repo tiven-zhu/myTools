@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T01:48:43.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="tKju5Pkfwdc6W_A_iXi5" version="14.2.9" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-02-18T08:48:25.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="piicYvd3WrVxT9SBrCr0" version="14.2.9" type="github" pages="6">
   <diagram id="rkRg91yvawpchocIyfSg" name="Page-1">
     <mxGraphModel dx="1076" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2466,7 +2466,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PaZjrUaZExnmMy6DFfkY" name="Page-6">
-    <mxGraphModel dx="2906" dy="1667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2600" dy="1519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="oDD7kpyfkN98rXuSfnQN-0" />
         <mxCell id="oDD7kpyfkN98rXuSfnQN-1" parent="oDD7kpyfkN98rXuSfnQN-0" />
@@ -2727,13 +2727,13 @@
         <mxCell id="oDD7kpyfkN98rXuSfnQN-61" value="此方法通过解析/system/etc/vintf/manifest.xml; &lt;br&gt;/vendor/etc/vintf/manifest.xml" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="oDD7kpyfkN98rXuSfnQN-1">
           <mxGeometry x="1820" y="565" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oDD7kpyfkN98rXuSfnQN-62" value="return&amp;nbsp;Transport" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="oDD7kpyfkN98rXuSfnQN-1" target="oDD7kpyfkN98rXuSfnQN-7">
+        <mxCell id="oDD7kpyfkN98rXuSfnQN-62" value="return&amp;nbsp;Transport::HWBINDER" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="oDD7kpyfkN98rXuSfnQN-1" target="oDD7kpyfkN98rXuSfnQN-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1420" y="610" as="sourcePoint" />
             <mxPoint x="1340" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oDD7kpyfkN98rXuSfnQN-67" value="return IBase" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="oDD7kpyfkN98rXuSfnQN-1" target="oDD7kpyfkN98rXuSfnQN-7">
+        <mxCell id="oDD7kpyfkN98rXuSfnQN-67" value="return&amp;nbsp;sp&amp;lt;IBase&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="oDD7kpyfkN98rXuSfnQN-1" target="oDD7kpyfkN98rXuSfnQN-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1420" y="740" as="sourcePoint" />
             <mxPoint x="1340" y="740" as="targetPoint" />
@@ -2750,14 +2750,14 @@
             <mxPoint x="729.5" y="822" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oDD7kpyfkN98rXuSfnQN-78" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="oDD7kpyfkN98rXuSfnQN-1">
+        <mxCell id="oDD7kpyfkN98rXuSfnQN-78" value="return&amp;nbsp;sp&amp;lt;IBase&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="oDD7kpyfkN98rXuSfnQN-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="720" y="822" as="sourcePoint" />
             <mxPoint x="309.5" y="822" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oDD7kpyfkN98rXuSfnQN-80" value="Passthrough" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="oDD7kpyfkN98rXuSfnQN-1">
-          <mxGeometry x="230" y="832" width="310" height="140" as="geometry" />
+          <mxGeometry x="240" y="840" width="310" height="140" as="geometry" />
         </mxCell>
         <mxCell id="oDD7kpyfkN98rXuSfnQN-13" value="toBinder" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="oDD7kpyfkN98rXuSfnQN-1" target="oDD7kpyfkN98rXuSfnQN-11">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -2770,6 +2770,12 @@
         </mxCell>
         <mxCell id="oDD7kpyfkN98rXuSfnQN-84" value="返回静态变量BnConstructorMap &amp;amp;map&lt;br&gt;此变量在ServiceManagerAll.cpp构造时被赋值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="oDD7kpyfkN98rXuSfnQN-1">
           <mxGeometry x="600" y="1055" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oDD7kpyfkN98rXuSfnQN-85" value="if HWbinder==true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="oDD7kpyfkN98rXuSfnQN-1">
+          <mxGeometry x="200" y="690" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oDD7kpyfkN98rXuSfnQN-86" value="else" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="oDD7kpyfkN98rXuSfnQN-1">
+          <mxGeometry x="200" y="820" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
