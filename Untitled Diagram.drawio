@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-24T03:26:31.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="pFbhn6xPuYNchBqYVMUF" version="14.5.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-03-24T03:44:47.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="SYOyCc70oWIZNqbyhdEQ" version="14.5.1" type="github" pages="7">
   <diagram id="rkRg91yvawpchocIyfSg" name="Page-1">
     <mxGraphModel dx="1081" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -3017,20 +3017,35 @@
         <mxCell id="t5l7LwHOz0zCEiRq7TJR-5" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="t5l7LwHOz0zCEiRq7TJR-1">
           <mxGeometry x="560" y="70" width="100" height="700" as="geometry" />
         </mxCell>
-        <mxCell id="t5l7LwHOz0zCEiRq7TJR-6" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="t5l7LwHOz0zCEiRq7TJR-1">
+        <mxCell id="t5l7LwHOz0zCEiRq7TJR-6" value="RampAnimator.java" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="t5l7LwHOz0zCEiRq7TJR-1">
           <mxGeometry x="420" y="70" width="100" height="710" as="geometry" />
         </mxCell>
         <mxCell id="t5l7LwHOz0zCEiRq7TJR-7" value="DisplayPowerState.java" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="t5l7LwHOz0zCEiRq7TJR-1">
           <mxGeometry x="280" y="70" width="100" height="720" as="geometry" />
         </mxCell>
         <mxCell id="t5l7LwHOz0zCEiRq7TJR-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="t5l7LwHOz0zCEiRq7TJR-7">
-          <mxGeometry x="45" y="450" width="10" height="40" as="geometry" />
+          <mxGeometry x="45" y="490" width="10" height="100" as="geometry" />
         </mxCell>
         <mxCell id="t5l7LwHOz0zCEiRq7TJR-15" value="run()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="t5l7LwHOz0zCEiRq7TJR-14" parent="t5l7LwHOz0zCEiRq7TJR-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="430" as="sourcePoint" />
+            <mxPoint x="50" y="470" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="80" y="430" />
+              <mxPoint x="80" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t5l7LwHOz0zCEiRq7TJR-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="t5l7LwHOz0zCEiRq7TJR-7">
+          <mxGeometry x="45" y="130" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t5l7LwHOz0zCEiRq7TJR-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="t5l7LwHOz0zCEiRq7TJR-7">
+          <mxGeometry x="46" y="430" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t5l7LwHOz0zCEiRq7TJR-19" value="new PhotonicModulator" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=1.02;exitY=0.048;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="t5l7LwHOz0zCEiRq7TJR-18" parent="t5l7LwHOz0zCEiRq7TJR-7" source="t5l7LwHOz0zCEiRq7TJR-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="51" y="410" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="110" y="134" />
+              <mxPoint x="110" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -3041,14 +3056,26 @@
           <mxGeometry x="45" y="90" width="10" height="320" as="geometry" />
         </mxCell>
         <mxCell id="t5l7LwHOz0zCEiRq7TJR-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="t5l7LwHOz0zCEiRq7TJR-8">
-          <mxGeometry x="50" y="110" width="10" height="170" as="geometry" />
+          <mxGeometry x="50" y="110" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="t5l7LwHOz0zCEiRq7TJR-12" value="self call" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="t5l7LwHOz0zCEiRq7TJR-11" parent="t5l7LwHOz0zCEiRq7TJR-8">
+        <mxCell id="t5l7LwHOz0zCEiRq7TJR-12" value="initialize()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="t5l7LwHOz0zCEiRq7TJR-11" parent="t5l7LwHOz0zCEiRq7TJR-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="90" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="85" y="90" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t5l7LwHOz0zCEiRq7TJR-16" value="new DisplayPowerState" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.06;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="t5l7LwHOz0zCEiRq7TJR-8" target="t5l7LwHOz0zCEiRq7TJR-17">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="130" as="sourcePoint" />
+            <mxPoint x="180" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t5l7LwHOz0zCEiRq7TJR-20" value="new RampAnimator" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="t5l7LwHOz0zCEiRq7TJR-8">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="154" as="sourcePoint" />
+            <mxPoint x="329.5" y="154" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t5l7LwHOz0zCEiRq7TJR-9" value="updatePowerState" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="t5l7LwHOz0zCEiRq7TJR-1">
